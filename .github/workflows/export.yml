@@ -13,9 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Run FusionExport batch
+      - name: Run FusionExport batch via PowerShell
+        shell: pwsh
         run: |
-          call run.bat
+          Write-Host "🚀 Running FusionExport via PowerShell..."
+          & cmd /c run.bat
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
