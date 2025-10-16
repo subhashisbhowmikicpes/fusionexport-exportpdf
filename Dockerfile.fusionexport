@@ -1,0 +1,24 @@
+# Use Windows Server Core base image
+FROM mcr.microsoft.com/windows/servercore:ltsc2022
+
+# Set working directory
+WORKDIR C:/fusionexport
+
+# # Copy only what's needed for runtime
+# COPY fusionexport-service.exe .
+# COPY fusionexport.bat .
+
+# # Copy only essential Chrome binaries
+# COPY ./chrome/
+
+# # Copy only required resources (templates/fonts/images)
+# COPY examples/resources/ ./resources/
+WORKDIR C:/fusionexport
+COPY . .
+ENV CHROME_PATH=C:/fusionexport/chrome/win64-686378/chrome-win/chrome.exe
+
+# Expose the service port
+EXPOSE 1337
+
+# Start the FusionExport service
+CMD ["fusionexport-service.exe"]

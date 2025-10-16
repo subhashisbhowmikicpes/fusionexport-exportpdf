@@ -1,24 +1,10 @@
-# Use Windows Server Core base image
-FROM mcr.microsoft.com/windows/servercore:ltsc2022
+# Use a lightweight Windows base image with .NET runtime
+FROM mcr.microsoft.com/dotnet/runtime:8.0-windowsservercore-ltsc2022
 
-# Set working directory
-WORKDIR C:/fusionexport
+ENV FUSIONEXPORT_CHROME_FLAGS="--no-sandbox --disable-dev-shm-usage --disable-gpu --disable-software-rasterizer --disable-setuid-sandbox --single-process"
 
-# Copy only what's needed for runtime
-COPY fusionexport-service.exe .
-COPY fusionexport.bat .
+WORKDIR /app
+COPY . .
 
-# Copy only essential Chrome binaries
-COPY chrome/win64-686378/chrome-win/chrome.exe ./chrome/
-COPY chrome/win64-686378/chrome-win/*.dll ./chrome/
-COPY chrome/win64-686378/chrome-win/icudtl.dat ./chrome/
-COPY chrome/win64-686378/chrome-win/v8_context_snapshot.bin ./chrome/
-
-# Copy only required resources (templates/fonts/images)
-COPY examples/resources/ ./resources/
-
-# Expose the service port
-EXPOSE 1337
-
-# Start the FusionExport service
-CMD ["fusionexport-service.exe"]
+EXPOSE 8088
+CMD ["fusionexport-service.exe", "--port", "8088"]

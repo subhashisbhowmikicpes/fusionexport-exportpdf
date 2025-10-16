@@ -1,0 +1,17 @@
+[1008/011127.967:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[1008/011128.010:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[1008/102434.290:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[1008/102434.319:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[1008/153459.364:WARNING:spdy_session.cc(3304)] Received HEADERS for invalid stream 9
+[1008/164355.904:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1008/164400.968:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1008/164406.024:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1008/164411.059:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1008/164416.098:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1008/164700.508:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1015/222327.042:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[1015/222327.187:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[1015/222436.058:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[1015/222436.148:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[1016/113718.123:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)
+[1016/113718.236:ERROR:registration_protocol_win.cc(56)] CreateFile: The system cannot find the file specified. (0x2)

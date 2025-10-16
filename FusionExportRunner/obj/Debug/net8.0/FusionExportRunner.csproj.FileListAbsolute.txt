@@ -1,0 +1,15 @@
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\bin\Debug\net8.0\FusionExportRunner.exe
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\bin\Debug\net8.0\FusionExportRunner.deps.json
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\bin\Debug\net8.0\FusionExportRunner.runtimeconfig.json
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\bin\Debug\net8.0\FusionExportRunner.dll
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\bin\Debug\net8.0\FusionExportRunner.pdb
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\obj\Debug\net8.0\FusionExportRunner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\obj\Debug\net8.0\FusionExportRunner.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\obj\Debug\net8.0\FusionExportRunner.AssemblyInfo.cs
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\obj\Debug\net8.0\FusionExportRunner.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\obj\Debug\net8.0\FusionExportRunner.sourcelink.json
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\obj\Debug\net8.0\FusionExportRunner.dll
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\obj\Debug\net8.0\refint\FusionExportRunner.dll
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\obj\Debug\net8.0\FusionExportRunner.pdb
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\obj\Debug\net8.0\FusionExportRunner.genruntimeconfig.cache
+C:\Users\DELL\Downloads\fusionexport-csharp\fusionexport-csharp-win_x64-v2.0.0\FusionExportRunner\obj\Debug\net8.0\ref\FusionExportRunner.dll
